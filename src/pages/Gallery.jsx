@@ -17,8 +17,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Talking about accessibility in gaming at the National AI Conference',
       image: '/images/gallery/crystal_yang_audemy_720.png',
-      icon: Gamepad2,
-      date: 'December 2022'
+      icon: Gamepad2
     },
     {
       id: 36,
@@ -26,8 +25,7 @@ const Gallery = () => {
       category: 'News',
       description: 'Intel highlighted my work on Audemy Games!',
       image: '/images/gallery/Screenshot 2025-07-24 155925.png',
-      icon: Gamepad2,
-      date: 'March 2022'
+      icon: Gamepad2
     },
     {
       id: 23,
@@ -35,8 +33,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Behind the scenes with visually impaired students in the Arizona School for the Blind and Visually Impaired.',
       image: '/images/gallery/visuallyImpairedArizonaStudent.png',
-      icon: Users,
-      date: 'April 2023'
+      icon: Users
     },
   
     {
@@ -45,8 +42,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Introducing Audemy Games at ISTE, the largest education technology conference in the world!',
       image: '/images/gallery/image_720.png',
-      icon: Gamepad2,
-      date: 'November 2022'
+      icon: Gamepad2
     },
     {
       id: 33,
@@ -54,8 +50,7 @@ const Gallery = () => {
       category: 'News',
       description: 'BTS of one of our TV appearances!',
       image: '/images/gallery/IMG_0779.jpeg',
-      icon: Users,
-      date: 'June 2022'
+      icon: Users
     },
     {
       id: 30,
@@ -63,8 +58,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Presented at CHI 2025 (the most prestigious human computing conference in the world!) Youngest presenter there :)',
       image: '/images/gallery/IMG_0489.jpeg',
-      icon: Users,
-      date: 'September 2022'
+      icon: Users
     },
   
  
@@ -74,8 +68,7 @@ const Gallery = () => {
       category: 'News',
       description: 'KatyYouthHacks on live TV for CW.',
       image: '/images/gallery/kyh2 (1).jpg',
-      icon: Users,
-      date: 'January 2023'
+      icon: Users
     },
     {
       id: 31,
@@ -83,8 +76,7 @@ const Gallery = () => {
       category: 'News',
       description: 'Featured on NPR to discuss accessibility in gaming.',
       image: '/images/gallery/IMG_1542.jpeg',
-      icon: Users,
-      date: 'August 2022'
+      icon: Users
     },
     {
       id: 29,
@@ -92,8 +84,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Talking about accessibility in gaming.',
       image: '/images/gallery/image_720 (1).png',
-      icon: Gamepad2,
-      date: 'October 2022'
+      icon: Gamepad2
     },
     {
       id: 8,
@@ -101,8 +92,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'International conference on multimodal interaction (my first research conference!) in Paris',
       image: '/images/gallery/icmi.jpg',
-      icon: Users,
-      date: 'July 2024'
+      icon: Users
     },
 
     {
@@ -111,8 +101,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Won 1st out of 200 teams at CodeWars!',
       image: '/images/gallery/codewars.png',
-      icon: Users,
-      date: 'November 2023'
+      icon: Users
     },
     
   
@@ -124,8 +113,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'More student testing in the Iowa Library for the Blind.',
       image: '/images/gallery/arizonaStudent.png',
-      icon: Users,
-      date: 'March 2023'
+      icon: Users
     },
   
   
@@ -136,8 +124,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Early prototype of the Buzzle audio gaming console.',
       image: '/images/gallery/first buzzle prototype.png',
-      icon: Gamepad2,
-      date: 'January 2023'
+      icon: Gamepad2
     },
     {
       id: 5,
@@ -145,8 +132,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Audemy Games Education Team built videos for blind students to learn, reaching almost 200k students!',
       image: '/images/gallery/audemyvids.png',
-      icon: Gamepad2,
-      date: 'October 2024'
+      icon: Gamepad2
     },
   
     {
@@ -155,8 +141,7 @@ const Gallery = () => {
       category: 'News',
       description: 'My hackathon co-founder and I got to do a live interview about accessibility.',
       image: '/images/gallery/newsstation-crystal_yang.jpeg',
-      icon: Users,
-      date: 'November 2024'
+      icon: Users
     },
     {
       id: 32,
@@ -164,8 +149,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Presenting at an education conference to promote Audemy Educational Games.',
       image: '/images/gallery/IMG_1661.jpeg',
-      icon: Users,
-      date: 'July 2022'
+      icon: Users
     },
    
     {
@@ -174,8 +158,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Developing Audemy platform features.',
       image: '/images/gallery/Screenshot 2025-07-24 155951.png',
-      icon: Gamepad2,
-      date: 'May 2022'
+      icon: Gamepad2
     },
      {
       id: 52,
@@ -183,8 +166,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Sneak peak into one of our 100+ workshops that we do for students!',
       image: '/images/gallery/5b46078e-65e0-42c8-a658-2939c6676a21.jpeg',
-      icon: Gamepad2,
-      date: 'February 2023'
+      icon: Gamepad2
     },
   
   
@@ -194,8 +176,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Featured on a new Intel user study.',
       image: '/images/gallery/Screenshot 2025-07-24 155723.png',
-      icon: Gamepad2,
-      date: 'April 2022'
+      icon: Gamepad2
     },
     {
       id: 35,
@@ -203,8 +184,7 @@ const Gallery = () => {
       category: 'News',
       description: 'Featured on Fox News to share about Accessible Gaming!',
       image: '/images/gallery/crystal yang fox.png',
-      icon: Gamepad2,
-      date: 'April 2022'
+      icon: Gamepad2
     },
   
    
@@ -219,8 +199,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'A peek inside our weekly meetings with the Audemy Games team.',
       image: '/images/gallery/IMG_1359.jpeg',
-      icon: Users,
-      date: 'August 2023'
+      icon: Users
     },
     {
       id: 47,
@@ -228,8 +207,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Taco Bell celebrated our work with a special event!',
       image: '/images/gallery/IMG_1740.jpeg',
-      icon: Users,
-      date: 'July 2023'
+      icon: Users
     },
     {
       id: 48,
@@ -237,8 +215,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Audemy Games featured on Fox News!',
       image: '/images/gallery/IMG_0384.png',
-      icon: Gamepad2,
-      date: 'June 2023'
+      icon: Gamepad2
     },
     {
       id: 49,
@@ -246,8 +223,7 @@ const Gallery = () => {
       category: 'News',
       description: 'Behind the scenes of one of our media appearances.',
       image: '/images/gallery/IMG_0782.jpeg',
-      icon: Users,
-      date: 'May 2023'
+      icon: Users
     },
     {
       id: 50,
@@ -255,8 +231,7 @@ const Gallery = () => {
       category: 'Events',
       description: 'Spoke about Intel and accessibility at a panel.',
       image: '/images/gallery/352b74a5-6d70-4949-82e4-5158b8897de1.jpeg',
-      icon: Gamepad2,
-      date: 'April 2023'
+      icon: Gamepad2
     },
     {
       id: 51,
@@ -264,8 +239,7 @@ const Gallery = () => {
       category: 'Development',
       description: 'Spoke about my work on the Intel Global Impact Festival.',
       image: '/images/gallery/4742f63c-e12a-46f4-9b5b-126743e8b50c.jpeg',
-      icon: Gamepad2,
-      date: 'March 2023'
+      icon: Gamepad2
     },
    
   ]
@@ -397,7 +371,6 @@ const Gallery = () => {
                   }`}>
                     {item.category}
                   </span>
-                  <span className="text-xs text-gray-500">{item.date}</span>
                 </div>
                 <h3 className="font-gamer font-bold text-gamer-navy mb-2">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.description}</p>
@@ -441,7 +414,6 @@ const Gallery = () => {
               <div className="flex items-center justify-between p-4 border-b">
                 <div>
                   <h3 className="text-xl font-gamer font-bold text-gamer-navy">{selectedImage.title}</h3>
-                  <p className="text-sm text-gray-600">{selectedImage.date}</p>
                 </div>
                 <button
                   onClick={closeModal}
