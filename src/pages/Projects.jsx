@@ -11,7 +11,7 @@ const Projects = () => {
         "Used in every U.S. state school for the blind. Boosted math scores by 28% in just one week through screen-free audio games.",
       technologies: ["React", "Voice UX", "Game Design"],
       image: "/images/projects/audemygames.png",
-      live: "#",
+      live: "https://audemy.org/game-zone-landing-page",
       icon: Gamepad2,
       color: "from-yellow-400 to-orange-500",
       stats: {
@@ -62,7 +62,7 @@ const Projects = () => {
         "World's first fully audio-based gaming console for blind users. Uses braille game pieces and 30 built-in accessible titles.",
       technologies: ["Embedded Audio", "3D Design", "Hardware UX"],
       image: "/images/projects/buzzlehand.png",
-      live: "#",
+      live: "https://devpost.com/software/buzzle",
       icon: Gamepad2,
       color: "from-red-400 to-pink-600",
       stats: {
@@ -79,7 +79,7 @@ const Projects = () => {
         "Built for a blind friend who couldn't play Wordle. Presented at ACM ICMI in Paris. Fully audio-based gameplay.",
       technologies: ["Web Audio API", "Python", "Voice Interface"],
       image: "/images/projects/heardle-image.png",
-      live: "#",
+      live: "https://dl.acm.org/doi/10.1145/3610661.3617150",
       icon: Code,
       color: "from-purple-500 to-fuchsia-600",
       stats: {
@@ -96,7 +96,7 @@ const Projects = () => {
         "Built a tactile-audio graph system to teach spatial math to blind students. Presented at ACM in Costa Rica.",
       technologies: ["Arduino", "Tactile UX", "Sound Feedback"],
       image: "/images/projects/tacticoords.png",
-      live: "#",
+      live: "https://dl.acm.org/doi/abs/10.1145/3686215.3690154",
       icon: Code,
       color: "from-blue-500 to-cyan-500",
       stats: {
@@ -113,7 +113,7 @@ const Projects = () => {
         "Founded and led KatyYouthHacks to tackle accessibility and sustainability. 1,300+ students from 27 countries. $100K+ prizes awarded.",
       technologies: ["Leadership", "Event Design", "Mentorship"],
       image: "/images/projects/katyyouthhacks.png",
-      live: "#",
+      live: "https://katyhacks.org",
       icon: Users,
       color: "from-orange-500 to-yellow-400",
       stats: {
@@ -130,7 +130,7 @@ const Projects = () => {
         "Co-authored and presented research on audio-based accessible game design. Backed by field data and user studies.",
       technologies: ["UX Research", "Academic Writing", "Data Analysis"],
       image: "/images/projects/audemypaper.png",
-      live: "#",
+      live: "https://arxiv.org/abs/2504.17117",
       icon: BookOpen,
       color: "from-gray-600 to-slate-700",
       stats: {
@@ -147,7 +147,7 @@ const Projects = () => {
         "Built a support network for girls in competitive programming. 300+ participants from 10+ countries. $12K raised.",
       technologies: ["Community Building", "Mentorship", "Outreach"],
       image: "/images/projects/algirlithm.png",
-      live: "#",
+      live: "https://algirlithm.org",
       icon: Users,
       color: "from-rose-500 to-red-600",
       stats: {
@@ -272,9 +272,12 @@ const Projects = () => {
             I'm always interested in working with developers, designers, and advocates 
             who share the vision of making gaming accessible for everyone.
           </p>
-          <button className="gamer-button">
+          <a
+            href="mailto:crystal@audemy.org"
+            className="gamer-button inline-block"
+          >
             Get In Touch
-          </button>
+          </a>
         </motion.div>
       </div>
       </div>

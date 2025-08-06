@@ -6,19 +6,19 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/crystal-yang',
+      url: 'https://www.linkedin.com/in/crustaly/',
       color: 'hover:text-blue-400'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:crystal@example.com',
+      url: 'mailto:crystal@audemy.org',
       color: 'hover:text-gamer-hot-pink'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/crystal-yang',
+      url: 'https://github.com/Crustaly',
       color: 'hover:text-gray-400'
     }
   ]
