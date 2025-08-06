@@ -5,110 +5,110 @@ const Press = () => {
   const pressItems = [
     {
       id: 1,
-      title: 'Katy Student Develops Online Tool to Help Blind Students',
+      title: 'Katy Student Creates Gaming Platform for Blind Players',
       publication: 'Fox News',
       date: 'June 2025',
       url: 'https://www.fox26houston.com/news/katy-student-develops-online-tool-help-blind-students',
-      excerpt: 'Crystal Yang, a Katy ISD student, has developed an innovative online tool designed to help blind students access educational content through audio-based learning.',
+      excerpt: 'Crystal Yang, a Katy ISD student, has developed an innovative gaming platform designed to make video games accessible to blind players through audio-based gameplay.',
       category: 'Feature',
       image: '/images/press/crystal yang fox.png'
     },
     {
       id: 2,
-      title: 'Hello Houston: Crystal Yang on Accessibility Innovation',
+      title: 'Hello Houston: Crystal Yang on Gaming Accessibility',
       publication: 'NPR',
       date: 'June 2025',
       url: 'https://www.houstonpublicmedia.org/articles/shows/hello-houston/2025/06/10/523583/hello-houston-june-10-2025/',
-      excerpt: 'NPR Houston features Crystal Yang discussing her groundbreaking work in accessibility technology and her mission to make education more inclusive.',
+      excerpt: 'NPR Houston features Crystal Yang discussing her groundbreaking work in gaming accessibility and her mission to make video games playable for blind gamers.',
       category: 'Interview',
       image: '/images/press/crystal yang npr.png'
     },
     {
       id: 3,
-      title: 'The CW News Feature: Crystal Yang',
+      title: 'The CW News Feature: Crystal Yang\'s Gaming Revolution',
       publication: 'The CW',
       date: 'May 2025',
       url: 'https://www.youtube.com/watch?v=7y_vTaRb6Mc&t=2382s',
-      excerpt: 'The CW News highlights Crystal Yang\'s innovative approach to accessibility in education and her impact on the blind and visually impaired community.',
+      excerpt: 'The CW News highlights Crystal Yang\'s innovative approach to gaming accessibility and her impact on making video games inclusive for blind players.',
       category: 'Feature',
       image: '/images/press/crystal yang cw.png'
     },
     {
       id: 4,
-      title: 'Katy ISD Student Creates Audio-Based Education Games',
+      title: 'Katy ISD Student Creates Audio-Based Game Platform',
       publication: 'Community Impact',
       date: 'June 2024',
       url: 'https://communityimpact.com/houston/katy-north/nonprofit/2024/06/27/katy-isd-student-creates-audio-based-education-games-for-visually-impaired-children/',
-      excerpt: 'Community Impact Newspaper covers Crystal Yang\'s development of audio-based educational games specifically designed for visually impaired children.',
+      excerpt: 'Community Impact Newspaper covers Crystal Yang\'s development of audio-based educational gaming platform specifically designed for blind gamers.',
       category: 'Local',
       image: '/images/press/communityimpact.png'
     },
     {
       id: 5,
-      title: 'PBS Feature: Crystal Yang on Educational Innovation',
+      title: 'PBS Feature: Crystal Yang on AI Audio Games for Blind Students',
       publication: 'PBS',
       date: 'May 2024',
       url: 'https://www.youtube.com/watch?v=-Cd82j8v7Dc&ab',
-      excerpt: 'PBS features Crystal Yang discussing her innovative educational tools and their impact on making learning accessible for all students.',
+      excerpt: 'PBS features Crystal Yang discussing her innovative gaming tools and their impact on making video games accessible for blind players.',
       category: 'Feature',
       image: '/images/press/crystal yang pbs.png'
     },
     {
       id: 6,
-      title: 'Championing Accessibility in Education Award',
+      title: 'Championing Accessibility in Gaming for Blind and Visually Impaired Students',
       publication: 'Points of Light',
       date: 'April 2024',
       url: 'https://www.pointsoflight.org/awards/championing-accessibility-in-education-for-blind-and-visually-impaired-students/',
-      excerpt: 'Crystal Yang receives recognition from Points of Light for her outstanding contributions to accessibility in education for blind and visually impaired students.',
+      excerpt: 'Crystal Yang receives recognition from Points of Light for her outstanding contributions to gaming accessibility for blind and visually impaired players.',
       category: 'Award',
       image: '/images/press/crystal_yang_pointoflight.png'
     },
     {
       id: 7,
-      title: 'Youth Service America: Crystal Yang Profile',
+      title: 'Youth Service America: Crystal Yang, Tech Accessibility Pioneer',
       publication: 'Youth Service America',
       date: 'March 2024',
       url: 'https://ysa.org/crystalyang/',
-      excerpt: 'Youth Service America profiles Crystal Yang as a young leader making significant impact through innovative accessibility solutions and community service.',
+      excerpt: 'Youth Service America profiles Crystal Yang as a young leader making significant impact through innovative gaming accessibility solutions and community service.',
       category: 'Feature',
       image: '/images/press/crystal yang ysa.png'
     },
     {
       id: 8,
-      title: 'Using AI and Tech for Accessibility: 5 Tips for Educators',
+      title: 'Using AI and Tech for Educational Accessibility: 5 Tips for Developers',
       publication: 'Tech & Learning',
       date: 'February 2024',
       url: 'https://www.techlearning.com/how-to/using-ai-and-tech-for-accessibility-5-tips-for-educators-and-students',
-      excerpt: 'Tech & Learning features Crystal Yang\'s insights on leveraging AI and technology to create more accessible educational experiences.',
+      excerpt: 'Tech & Learning features Crystal Yang\'s insights on leveraging AI and technology to create more accessible gaming experiences.',
       category: 'Interview',
-      image: '/images/crystal yang techlearning.png'
+      image: '/images/press/crystal-yang-audemy.png'
     },
     {
       id: 9,
-      title: 'Estudiante de Katy ISD Desarrolla Herramienta Online',
+      title: 'Estudiante de Katy ISD Desarrolla Plataforma de Juegos',
       publication: 'El Venezolano News',
       date: 'January 2024',
       url: 'https://www.elvenezolanohouston.com/estudiante-de-katy-isd-desarrolla-herramienta-online-para-ayudar-a-alumnos-ciegos/',
-      excerpt: 'El Venezolano News covers Crystal Yang\'s work in Spanish, highlighting her development of online tools to help blind students.',
+      excerpt: 'El Venezolano News covers Crystal Yang\'s work in Spanish, highlighting her development of gaming platform to help blind players.',
       category: 'Local',
       image: '/images/press/crystal yang venezolano.png'
     },
     {
       id: 10,
-      title: 'Devpost User Story: Crystal Yang',
+      title: 'Devpost User Story: Crystal Yang\'s Gaming Journey',
       publication: 'Devpost',
       date: 'December 2023',
       url: 'https://info.devpost.com/blog/user-story-crystal',
-      excerpt: 'Devpost features Crystal Yang\'s journey as a developer and her innovative approach to creating accessible technology solutions.',
+      excerpt: 'Devpost features Crystal Yang\'s journey as a developer and her innovative approach to creating accessible gaming solutions.',
       category: 'Feature',
-      image: '/images/press/crystal_yang_devpost.png'
+      image: '/images/press/crystal yang devpost.png'
     }
   ]
 
   const categories = ['All', 'Feature', 'Interview', 'Award', 'Local']
 
   return (
-    <div className="pt-16 min-h-screen bg-gamer-light-pink">
+    <div className="pt-16 min-h-screen bg-gamer-light-pink page-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <motion.div
@@ -199,7 +199,7 @@ const Press = () => {
                       href={item.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-2 text-gamer-navy hover:text-gamer-hot-pink transition-colors group/link"
+                      className="flex items-center space-x-2 bg-gamer-navy text-white px-4 py-2 rounded-lg font-gamer font-semibold hover:bg-gamer-hot-pink transition-all duration-300 transform hover:scale-105 group/link"
                     >
                       <span className="text-sm font-medium">Read Article</span>
                       <ExternalLink size={16} className="group-hover/link:translate-x-1 transition-transform" />
@@ -208,8 +208,8 @@ const Press = () => {
                 </div>
 
                 {/* Article Image */}
-                <div className="lg:flex-shrink-0 lg:w-1/2">
-                  <div className="w-full h-64 lg:h-80 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg overflow-hidden flex items-center justify-center">
+                <div className="lg:flex-shrink-0">
+                  <div className="w-70 h-59 lg:w-96 lg:h-55 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg overflow-hidden flex items-center justify-center">
                     <img
                       src={item.image}
                       alt={`${item.publication} article about Crystal Yang`}
@@ -222,8 +222,8 @@ const Press = () => {
                     />
                     <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center" style={{display: 'none'}}>
                       <div className="text-center">
-                        <Newspaper size={32} className="text-gray-400 mx-auto mb-1" />
-                        <p className="text-xs text-gray-500 font-medium">{item.publication}</p>
+                        <Newspaper size={48} className="text-gray-400 mx-auto mb-2" />
+                        <p className="text-sm text-gray-500 font-medium">{item.publication}</p>
                       </div>
                     </div>
                   </div>
@@ -364,9 +364,9 @@ const Press = () => {
             I'm always open to discussing accessibility in gaming, inclusive technology, 
             and my journey as a young innovator in the tech space.
           </p>
-          <button className="gamer-button">
+          <a href="mailto:crystal@audemy.org" className="gamer-button inline-block">
             Contact for Media
-          </button>
+          </a>
         </motion.div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Press from './pages/Press'
 import Gallery from './pages/Gallery'
-import Story from './pages/Story'
+
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/press" element={<Press />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/story" element={<Story />} />
+
         </Routes>
       </main>
       <Footer />

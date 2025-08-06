@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Gamepad2, Accessibility } from 'lucide-react'
+import { ArrowRight, Gamepad2, Accessibility, Newspaper } from 'lucide-react'
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Geometric Pattern Background */}
-        <div className="absolute inset-0 geometric-pattern opacity-30"></div>
+        <div className="absolute inset-0 page-background opacity-40"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -26,6 +26,7 @@ const Home = () => {
               >
                 I'm Crystal Yang, a{' '}
                 <span className="text-gamer-hot-pink">gaming + accessibility</span> enthusiast.
+                <Gamepad2 className="inline-block ml-4 text-gamer-hot-pink" size={48} />
               </motion.h1>
               
               <motion.p
@@ -46,14 +47,14 @@ const Home = () => {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="flex flex-col sm:flex-row gap-4"
               >
-                <button className="gamer-button flex items-center justify-center space-x-2">
+                <a href="/projects" className="gamer-button flex items-center justify-center space-x-2">
                   <span>View My Projects</span>
                   <ArrowRight size={20} />
-                </button>
-                <button className="bg-transparent border-2 border-gamer-navy text-gamer-navy px-6 py-3 rounded-lg font-gamer font-semibold hover:bg-gamer-navy hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
-                  <span>Read My Story</span>
-                  <Gamepad2 size={20} />
-                </button>
+                </a>
+                <a href="/press" className="bg-transparent border-2 border-gamer-navy text-gamer-navy px-6 py-3 rounded-lg font-gamer font-semibold hover:bg-gamer-navy hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+                  <span>Press & Media</span>
+                  <Newspaper size={20} />
+                </a>
               </motion.div>
 
               
@@ -71,7 +72,7 @@ const Home = () => {
                   <div className="w-full h-full rounded-full bg-white p-2">
                     <div className="w-full h-full rounded-full overflow-hidden">
                       <img
-                        src="/images/crystal yang .jpeg"
+                        src="public\images\crystal yang  .jpeg"
                         alt="Crystal Yang - Gaming and Accessibility Enthusiast"
                         className="w-full h-full object-cover rounded-full"
                         onError={(e) => {

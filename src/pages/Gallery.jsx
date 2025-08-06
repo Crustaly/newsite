@@ -9,113 +9,170 @@ const Gallery = () => {
   const categories = ['All', 'Events', 'Gaming', 'Awards', 'Team']
 
   const galleryItems = [
-    {
-      id: 1,
-      title: 'Buzzle Console Prototype',
-      category: 'Gaming',
-      description: 'First working prototype of the Buzzle audio-only gaming console',
-      image: '/assets/buzzle-prototype.jpg',
-      icon: Gamepad2,
-      date: 'December 2024'
-    },
-    {
-      id: 2,
-      title: 'Student Innovator Award Ceremony',
-      category: 'Awards',
-      description: 'Receiving the Student Innovator Award for accessibility work',
-      image: '/assets/award-ceremony.jpg',
-      icon: Trophy,
-      date: 'October 2024'
-    },
+  
+ 
     {
       id: 3,
-      title: 'Audemy Platform Launch',
+      title: 'CW News Hackathon Interview',
       category: 'Events',
-      description: 'Launch event for the Audemy gaming platform',
-      image: '/assets/audemy-launch.jpg',
+      description: 'My hackathon co-founder and I got to do a live interview about accessibility',
+      image: '/images/gallery/newsstation-crystal_yang.jpeg',
       icon: Users,
       date: 'November 2024'
     },
-    {
-      id: 4,
-      title: 'Accessibility Testing Session',
-      category: 'Gaming',
-      description: 'Testing Audemy with blind gamers',
-      image: '/assets/testing-session.jpg',
-      icon: Gamepad2,
-      date: 'September 2024'
-    },
+  
     {
       id: 5,
-      title: 'Tech Conference Presentation',
-      category: 'Events',
-      description: 'Presenting on gaming accessibility at TechCrunch Disrupt',
-      image: '/assets/tech-conference.jpg',
-      icon: Users,
-      date: 'August 2024'
+      title: 'Audemy Videos Screenshot',
+      category: 'Gaming',
+      description: 'Audemy Games Education Team built videos for blind students to learn, reaching almost 200k students!',
+      image: '/images/gallery/audemyvids.png',
+      icon: Gamepad2,
+      date: 'October 2024'
     },
+ 
+   
     {
-      id: 6,
-      title: 'Team Building Workshop',
-      category: 'Team',
-      description: 'Working with the development team on accessibility features',
-      image: '/assets/team-workshop.jpg',
+      id: 8,
+      title: 'ICMI Conference',
+      category: 'Events',
+      description: 'International conference on multimodal interaction (my first research conference!)in Paris',
+      image: '/images/gallery/icmi.jpg',
       icon: Users,
       date: 'July 2024'
     },
+
+
+   
     {
-      id: 7,
-      title: 'Buzzle User Testing',
-      category: 'Gaming',
-      description: 'User testing session with blind gamers',
-      image: '/assets/user-testing.jpg',
-      icon: Gamepad2,
-      date: 'June 2024'
-    },
-    {
-      id: 8,
-      title: 'Accessibility Hackathon',
+      id: 16,
+      title: 'CodeWars Competition',
       category: 'Events',
-      description: 'Winning team at the Accessibility Hackathon',
-      image: '/assets/hackathon.jpg',
-      icon: Trophy,
-      date: 'May 2024'
-    },
-    {
-      id: 9,
-      title: 'Gaming Industry Meetup',
-      category: 'Events',
-      description: 'Networking with gaming industry leaders',
-      image: '/assets/industry-meetup.jpg',
+      description: 'Participating in CodeWars programming challenges',
+      image: '/images/gallery/codewars.png',
       icon: Users,
-      date: 'April 2024'
+      date: 'November 2023'
+    },
+    
+  
+
+    {
+      id: 23,
+      title: 'Arizona Student Impact',
+      category: 'Events',
+      description: 'Working with visually impaired students in Arizona',
+      image: '/images/gallery/visuallyImpairedArizonaStudent.png',
+      icon: Users,
+      date: 'April 2023'
     },
     {
-      id: 10,
-      title: 'Audemy Beta Testing',
+      id: 24,
+      title: 'Arizona Student Project',
+      category: 'Events',
+      description: 'Project collaboration with students in Iowa',
+      image: '/images/gallery/arizonaStudent.png',
+      icon: Users,
+      date: 'March 2023'
+    },
+  
+    {
+      id: 26,
+      title: 'KatyYouthHacks',
+      category: 'Events',
+      description: 'KatyYouthHacks on live TV!',
+      image: '/images/gallery/kyh2 (1).jpg',
+      icon: Users,
+      date: 'January 2023'
+    },
+    {
+      id: 27,
+      title: 'National AI Conference',
       category: 'Gaming',
-      description: 'Beta testing session with early users',
-      image: '/assets/beta-testing.jpg',
+      description: 'Talking about accessibility in gaming at the National AI Conferenc',
+      image: '/images/gallery/crystal_yang_audemy_720.png',
       icon: Gamepad2,
-      date: 'March 2024'
+      date: 'December 2022'
     },
     {
-      id: 11,
-      title: 'Accessibility Award',
-      category: 'Awards',
-      description: 'Receiving the Accessibility Innovation Award',
-      image: '/assets/accessibility-award.jpg',
-      icon: Trophy,
-      date: 'February 2024'
+      id: 28,
+      title: 'Panel Speaker',
+      category: 'Gaming',
+      description: 'Introducing Audemy Games at ISTE',
+      image: '/images/gallery/image_720.png',
+      icon: Gamepad2,
+      date: 'November 2022'
     },
     {
-      id: 12,
-      title: 'Development Team',
+      id: 29,
+      title: 'Guest Speaker for Audemy',
+      category: 'Gaming',
+      description: 'Talking about accessibility in gaming',
+      image: '/images/gallery/image_720 (1).png',
+      icon: Gamepad2,
+      date: 'October 2022'
+    },
+    {
+      id: 30,
+      title: 'CHI 2025',
+      category: 'Events',
+      description: 'Presented at CHI 2025 (the most prestigious computing conference in the world!) Youngest presenter there :)',
+      image: '/images/gallery/IMG_0489.jpeg',
+      icon: Users,
+      date: 'September 2022'
+    },
+    {
+      id: 31,
+      title: 'NPR Interview',
       category: 'Team',
-      description: 'The amazing team behind Audemy and Buzzle',
-      image: '/assets/development-team.jpg',
+      description: 'Featured on NPR to discuss accessibility in gaming',
+      image: '/images/gallery/IMG_1542.jpeg',
       icon: Users,
-      date: 'January 2024'
+      date: 'August 2022'
+    },
+    {
+      id: 32,
+      title: 'ISTE Live ',
+      category: 'Events',
+      description: 'Presenting at an education conference to promote Audemy Educational Games',
+      image: '/images/gallery/IMG_1661.jpeg',
+      icon: Users,
+      date: 'July 2022'
+    },
+    {
+      id: 33,
+      title: 'Workshop Session',
+      category: 'Events',
+      description: 'Leading accessibility workshop',
+      image: '/images/gallery/IMG_0779.jpeg',
+      icon: Users,
+      date: 'June 2022'
+    },
+    {
+      id: 34,
+      title: 'Platform Development',
+      category: 'Gaming',
+      description: 'Developing Audemy platform features',
+      image: '/images/gallery/Screenshot 2025-07-24 155951.png',
+      icon: Gamepad2,
+      date: 'May 2022'
+    },
+    {
+      id: 35,
+      title: 'User Interface Design',
+      category: 'Gaming',
+      description: 'Designing accessible user interfaces',
+      image: '/images/gallery/Screenshot 2025-07-24 155723.png',
+      icon: Gamepad2,
+      date: 'April 2022'
+    },
+    {
+      id: 36,
+      title: 'System Architecture',
+      category: 'Gaming',
+      description: 'Planning system architecture for accessibility',
+      image: '/images/gallery/Screenshot 2025-07-24 155925.png',
+      icon: Gamepad2,
+      date: 'March 2022'
     }
   ]
 
@@ -144,7 +201,7 @@ const Gallery = () => {
   }
 
   return (
-    <div className="pt-16 min-h-screen bg-gamer-light-pink">
+    <div className="pt-16 min-h-screen bg-gamer-light-pink page-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <motion.div
@@ -155,10 +212,21 @@ const Gallery = () => {
           <h1 className="text-4xl md:text-6xl font-gamer font-bold text-gamer-navy mb-6">
             Photo <span className="text-gamer-hot-pink">Gallery</span>
           </h1>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Behind the scenes of my journey in gaming accessibility, from development milestones 
-            to award ceremonies and team collaborations.
-          </p>
+          <p className="text-lg leading-relaxed text-gray-700 mb-4">
+              I've always loved games. Wordle was my favorite, and I would play with my whole class every day. 
+              Growing up as a gamer obsessed with titles like Among Us and Minecraft, I knew firsthand how games 
+              could fuel education, creativity, and fun. But when I noticed that my blind friend couldn't join in, 
+              I learned that for every 1 million games released, only about ten are fully accessible 
+              for blind players — a jaw-dropping gap that inspired my mission to change the industry.
+            </p>
+          
+            <p className="text-lg leading-relaxed text-gray-700 font-gamer font-semibold text-gamer-navy">
+              Now, I'm rewriting what's possible in accessible gaming and creating a future where no player is left behind. 
+              Take a look at our impact in action in the photo gallery!
+            </p>
+          
+          {/* Story Section */}
+         
         </motion.div>
 
         {/* Category Filter */}
@@ -194,9 +262,19 @@ const Gallery = () => {
               className="gamer-card overflow-hidden group cursor-pointer"
               onClick={() => openModal(item)}
             >
-              {/* Image Placeholder */}
+              {/* Image */}
               <div className="relative h-64 bg-gradient-to-br from-gray-200 to-gray-300 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback to placeholder if image fails to load
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="absolute inset-0 flex items-center justify-center" style={{display: 'none'}}>
                   <div className="text-center">
                     <item.icon size={48} className="text-gray-400 mx-auto mb-2" />
                     <p className="text-gray-500 text-sm">{item.title}</p>
@@ -276,9 +354,21 @@ const Gallery = () => {
 
               {/* Modal Image */}
               <div className="relative h-96 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                <div className="text-center">
-                  <selectedImage.icon size={80} className="text-gray-400 mx-auto mb-4" />
-                  <p className="text-gray-500">{selectedImage.title}</p>
+                <img
+                  src={selectedImage.image}
+                  alt={selectedImage.title}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback to placeholder if image fails to load
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="absolute inset-0 flex items-center justify-center" style={{display: 'none'}}>
+                  <div className="text-center">
+                    <selectedImage.icon size={80} className="text-gray-400 mx-auto mb-4" />
+                    <p className="text-gray-500">{selectedImage.title}</p>
+                  </div>
                 </div>
                 
                 {/* Navigation Buttons */}
