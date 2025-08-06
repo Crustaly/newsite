@@ -6,8 +6,16 @@ const Home = () => {
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Geometric Pattern Background */}
-        <div className="absolute inset-0 page-background opacity-40"></div>
+        {/* Topographic Map Background */}
+        <div className="absolute inset-0 page-background opacity-5"></div>
+        
+        {/* Background Image Overlay */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
+          style={{
+            backgroundImage: 'url("/images/background-overlay.jpg")'
+          }}
+        ></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

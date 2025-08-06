@@ -159,7 +159,11 @@ const Projects = () => {
   ]
 
   return (
-    <div className="pt-16 min-h-screen bg-gamer-light-pink page-background">
+    <div className="pt-16 min-h-screen bg-gamer-light-pink">
+      {/* Topographic Map Background */}
+      <div className="absolute inset-0 page-background opacity-5"></div>
+      
+      <div className="relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <motion.div
@@ -260,6 +264,7 @@ const Projects = () => {
             Get In Touch
           </button>
         </motion.div>
+      </div>
       </div>
     </div>
   )

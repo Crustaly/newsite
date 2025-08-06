@@ -7,14 +7,10 @@
     @apply bg-gamer-light-pink text-black font-sans;
   }
   
-  /* Geometric pattern background for all pages */
+  /* Topographic map background for all pages */
   .page-background {
-    background-image: 
-      linear-gradient(45deg, transparent 40%, rgba(128, 128, 128, 0.1) 50%, transparent 60%),
-      linear-gradient(-45deg, transparent 40%, rgba(128, 128, 128, 0.08) 50%, transparent 60%),
-      linear-gradient(90deg, transparent 40%, rgba(128, 128, 128, 0.06) 50%, transparent 60%),
-      linear-gradient(0deg, transparent 40%, rgba(128, 128, 128, 0.04) 50%, transparent 60%);
-    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:rgba(255,255,255,0.02);stop-opacity:1" /><stop offset="100%" style="stop-color:rgba(255,255,255,0.01);stop-opacity:1" /></linearGradient></defs><rect width="1200" height="800" fill="url(%23bg)"/><path d="M50,100 Q200,50 350,100 Q500,150 650,100 Q800,50 950,100 Q1100,150 1150,100 M50,200 Q200,150 350,200 Q500,250 650,200 Q800,150 950,200 Q1100,250 1150,200 M50,300 Q200,250 350,300 Q500,350 650,300 Q800,250 950,300 Q1100,350 1150,300 M50,400 Q200,350 350,400 Q500,450 650,400 Q800,350 950,400 Q1100,450 1150,400 M50,500 Q200,450 350,500 Q500,550 650,500 Q800,450 950,500 Q1100,550 1150,500 M50,600 Q200,550 350,600 Q500,650 650,600 Q800,550 950,600 Q1100,650 1150,600 M50,700 Q200,650 350,700 Q500,750 650,700 Q800,650 950,700 Q1100,750 1150,700 M100,50 Q250,100 400,50 Q550,100 700,50 Q850,100 1000,50 Q1150,100 1200,50 M100,150 Q250,200 400,150 Q550,200 700,150 Q850,200 1000,150 Q1150,200 1200,150 M100,250 Q250,300 400,250 Q550,300 700,250 Q850,300 1000,250 Q1150,300 1200,250 M100,350 Q250,400 400,350 Q550,400 700,350 Q850,400 1000,350 Q1150,400 1200,350 M100,450 Q250,500 400,450 Q550,500 700,450 Q850,500 1000,450 Q1150,500 1200,450 M100,550 Q250,600 400,550 Q550,600 700,550 Q850,600 1000,550 Q1150,600 1200,550 M100,650 Q250,700 400,650 Q550,700 700,650 Q850,700 1000,650 Q1150,700 1200,650 M100,750 Q250,800 400,750 Q550,800 700,750 Q850,800 1000,750 Q1150,800 1200,750" fill="none" stroke="rgba(0,0,0,.13)" stroke-width="1"/></svg>');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
