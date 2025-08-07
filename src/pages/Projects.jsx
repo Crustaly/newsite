@@ -27,7 +27,7 @@ const Projects = () => {
       description:
         "Created 100+ toolkits to make mainstream games accessible (Minecraft, Call of Duty, Roblox). Used by blind players in 136 countries.",
       technologies: ["Modding", "Accessibility APIs", "Unity"],
-      image: "/images/projects/-projects.png",
+      image: "/images/projects/devpost-projects.png",
       live: "#",
       icon: Code,
       color: "from-indigo-500 to-blue-600",
@@ -44,7 +44,7 @@ const Projects = () => {
       description:
         "Connects indie studios with 30+ blind testers and assistive tech experts. Helps ensure real-world accessibility before release.",
       technologies: ["Product Ops", "Research", "Outreach"],
-      image: "/images/projects/-projects.png",
+      image: "/images/projects/audemygames.png",
       live: "#",
       icon: Users,
       color: "from-green-500 to-emerald-600",

@@ -80,7 +80,7 @@ const Home = () => {
                   <div className="w-full h-full rounded-full bg-white p-2">
                     <div className="w-full h-full rounded-full overflow-hidden">
                       <img
-                        src="public\images\crystal yang  .jpeg"
+                        src="/images/crystal yang.jpeg"
                         alt="Crystal Yang - Gaming and Accessibility Enthusiast"
                         className="w-full h-full object-cover rounded-full"
                         onError={(e) => {
