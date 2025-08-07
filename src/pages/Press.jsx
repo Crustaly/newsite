@@ -134,7 +134,7 @@ const Press = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12"
+          className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12"
         >
           <div className="text-center">
             <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">34</div>
@@ -144,10 +144,7 @@ const Press = () => {
             <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">2.5M+</div>
             <div className="text-sm text-gray-600">Total Reach</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">5</div>
-            <div className="text-sm text-gray-600">TV Appearances</div>
-          </div>
+ 
           <div className="text-center">
             <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">15+</div>
             <div className="text-sm text-gray-600">Awards</div>
