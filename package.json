@@ -2,7 +2,7 @@
   "name": "crystal-yang-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://crustaly.github.io/newsite",
+  "homepage": "https://www.yangcrystal.com",
   "dependencies": {
     "framer-motion": "^10.16.0",
     "lucide-react": "^0.263.1",
