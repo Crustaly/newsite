@@ -76,20 +76,20 @@ const Home = () => {
               className="flex justify-center lg:justify-end"
             >
               <div className="relative">
-                <div className="w-100 h-100 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-gamer-pink to-gamer-hot-pink p-2 animate-glow">
-                  <div className="w-full h-full rounded-full bg-white p-2">
-                    <div className="w-full h-full rounded-full overflow-hidden">
+                <div className="w-80 h-80 lg:w-[500px] lg:h-[500px] rounded-3xl bg-gradient-to-br from-gamer-pink to-gamer-hot-pink p-3 animate-glow">
+                  <div className="w-full h-full rounded-2xl bg-white p-3">
+                    <div className="w-full h-full rounded-xl overflow-hidden">
                       <img
                         src="/images/crystal yang.jpeg"
                         alt="Crystal Yang - Gaming and Accessibility Enthusiast"
-                        className="w-full h-full object-cover rounded-full"
+                        className="w-full h-full object-cover"
                         onError={(e) => {
                           // Fallback to placeholder if image fails to load
                           e.target.style.display = 'none';
                           e.target.nextSibling.style.display = 'flex';
                         }}
                       />
-                      <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded-full" style={{display: 'none'}}>
+                      <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center" style={{display: 'none'}}>
                         <div className="text-center p-8">
                           <Accessibility size={80} className="text-gamer-navy mx-auto mb-4" />
                           <p className="text-gamer-navy font-gamer font-semibold">Crystal Yang</p>
