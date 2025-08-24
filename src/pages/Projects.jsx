@@ -44,7 +44,7 @@ const Projects = () => {
       description:
         "Connects indie studios with 30+ blind testers and assistive tech experts. Helps ensure real-world accessibility before release.",
       technologies: ["Product Ops", "Research", "Outreach"],
-      image: "/images/projects/audemygames.png",
+      image: "/images/projects/accessstudio.png",
       live: "#",
       icon: Users,
       color: "from-green-500 to-emerald-600",

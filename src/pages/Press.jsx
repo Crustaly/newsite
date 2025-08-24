@@ -25,7 +25,7 @@ const Press = () => {
     },
     {
       id: 3,
-      title: 'The CW News Feature: Crystal Yang\'s Gaming Revolution',
+      title: 'The CW News Feature: Crystal Yang\'s Raises $70,000 to Code for People with Disabilities',
       publication: 'The CW',
       date: 'May 2025',
       url: 'https://www.youtube.com/watch?v=7y_vTaRb6Mc&t=2382s',
@@ -137,7 +137,7 @@ const Press = () => {
           className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12"
         >
           <div className="text-center">
-            <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">34</div>
+            <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">38</div>
             <div className="text-sm text-gray-600">Media Features</div>
           </div>
           <div className="text-center">
@@ -297,6 +297,7 @@ const Press = () => {
               
               </h3>
               <div className="space-y-4 text-lg">
+                <a href="https://www.edsurge.com/research/guides/the-idea-spark-live-2025" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🎙️ Live from ISTE+ASCD with Crystal Yang</a>
                 <a href="https://paragonx.academy/speakers/24speaker-stem" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🔬 ParagonX - STEM Speaker</a>
                 <a href="https://conference.iste.org/2025/program/search/detail_presenter.php?id=118282794" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🎓 ISTE Conference Speaker</a>
                 <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDIUFYWEPqQT%2F&psig=AOvVaw05k3_TJUpPScr1hrGA5b1l&ust=1754497176223000&source=images&cd=vfe&opi=89978449&ved=0CBkQjhxqFwoTCODuobuJ9I4DFQAAAAAdAAAAABAE" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🤖 National AI Conference</a>
