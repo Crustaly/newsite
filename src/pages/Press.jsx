@@ -4,6 +4,16 @@ import { ExternalLink, Calendar, Newspaper, Award } from 'lucide-react'
 const Press = () => {
   const pressItems = [
     {
+      id: 0,
+      title: 'Audemy Aids Accessible Education with AI Games',
+      publication: 'Intel',
+      date: 'August 2025',
+      url: 'https://www.intel.com/content/www/us/en/customer-spotlight/stories/audemy-crystal-yang-customer-story.html',
+      excerpt: 'Intel features Crystal Yang\'s Audemy platform, highlighting how AI-powered games enhance learning and privacy for visually impaired students through local speech processing.',
+      category: 'Feature',
+      image: '/images/press/intel and audemy.png'
+    },
+    {
       id: 1,
       title: 'Katy Student Creates Gaming Platform for Blind Players',
       publication: 'Fox News',
@@ -15,6 +25,16 @@ const Press = () => {
     },
     {
       id: 2,
+      title: 'Audemy Aids Accessibility with AI Games',
+      publication: 'Intel',
+      date: 'August 2025',
+      url: 'https://www.intel.com/content/www/us/en/customer-spotlight/stories/audemy-crystal-yang-customer-story.html',
+      excerpt: 'Intel features Crystal Yang\'s Audemy platform, highlighting how AI-powered games enhance learning and privacy for visually impaired students through local speech processing.',
+      category: 'Feature',
+      image: '/images/press/intel and audemy.png'
+    },
+    {
+      id: 3,
       title: 'Hello Houston: Crystal Yang on Gaming Accessibility',
       publication: 'NPR',
       date: 'June 2025',
@@ -24,7 +44,7 @@ const Press = () => {
       image: '/images/press/crystal yang npr.png'
     },
     {
-      id: 3,
+      id: 4,
       title: 'The CW News Feature: Crystal Yang\'s Raises $70,000 to Code for People with Disabilities',
       publication: 'The CW',
       date: 'May 2025',
@@ -34,7 +54,7 @@ const Press = () => {
       image: '/images/press/crystal yang cw.png'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Katy ISD Student Creates Audio-Based Game Platform',
       publication: 'Community Impact',
       date: 'June 2024',
@@ -44,7 +64,7 @@ const Press = () => {
       image: '/images/press/communityimpact.png'
     },
     {
-      id: 5,
+      id: 6,
       title: 'PBS Feature: Crystal Yang on AI Audio Games for Blind Students',
       publication: 'PBS',
       date: 'May 2024',
@@ -54,7 +74,7 @@ const Press = () => {
       image: '/images/press/crystal yang pbs.png'
     },
     {
-      id: 6,
+      id: 7,
       title: 'Championing Accessibility in Gaming for Blind and Visually Impaired Students',
       publication: 'Points of Light',
       date: 'April 2024',
@@ -64,7 +84,7 @@ const Press = () => {
       image: '/images/press/crystal_yang_pointoflight.png'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Youth Service America: Crystal Yang, Tech Accessibility Pioneer',
       publication: 'Youth Service America',
       date: 'March 2024',
@@ -74,7 +94,7 @@ const Press = () => {
       image: '/images/press/crystal yang ysa.png'
     },
     {
-      id: 8,
+      id: 9,
       title: 'Using AI and Tech for Educational Accessibility: 5 Tips for Developers',
       publication: 'Tech & Learning',
       date: 'February 2024',
@@ -84,7 +104,7 @@ const Press = () => {
       image: '/images/press/crystal-yang-audemy.png'
     },
     {
-      id: 9,
+      id: 10,
       title: 'Estudiante de Katy ISD Desarrolla Plataforma de Juegos',
       publication: 'El Venezolano News',
       date: 'January 2024',
@@ -94,7 +114,7 @@ const Press = () => {
       image: '/images/press/crystal yang venezolano.png'
     },
     {
-      id: 10,
+      id: 11,
       title: 'Devpost User Story: Crystal Yang\'s Gaming Journey',
       publication: 'Devpost',
       date: 'December 2023',
@@ -257,6 +277,8 @@ const Press = () => {
                
               </h3>
               <div className="space-y-4 text-lg">
+                <a href="https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-07/audemy-case-study.pdf" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">📄 Intel - Audemy Case Study (PDF)</a>
+                <a href="https://info.iste.org/beyond-the-screen-equipping-youth-with-skills-for-the-digital-age" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🎓 ISTE - Beyond the Screen: Equipping Youth with Skills for the Digital Age</a>
                 <a href="https://www.iheart.com/podcast/269-hello-houston-the-commuter-271597362/episode/hello-houston-the-commuter-cut-280206632/" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🎙️ iHeartRadio - Hello Houston Podcast</a>
                 <a href="https://www.devdiscourse.com/article/education/3358683-ai-powered-audio-learning-boosts-accessibility-for-visually-impaired-students" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">🌐 Devdiscourse - AI-Powered Audio Learning</a>
                 <a href="https://www.conf42.com/JavaScript_2024_Crystal_Yang_16_socialimpact_programming" target="_blank" rel="noopener noreferrer" className="block text-gamer-navy hover:text-gamer-hot-pink transition-colors font-medium">💻 Conf42 - JavaScript Conference Speaker</a>
