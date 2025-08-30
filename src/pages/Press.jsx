@@ -3,8 +3,9 @@ import { ExternalLink, Calendar, Newspaper, Award } from 'lucide-react'
 
 const Press = () => {
   const pressItems = [
+    
     {
-      id: 0,
+      id: 1,
       title: 'Audemy Aids Accessible Education with AI Games',
       publication: 'Intel',
       date: 'August 2025',
@@ -14,7 +15,7 @@ const Press = () => {
       image: '/images/press/intel and audemy.png'
     },
     {
-      id: 1,
+      id: 2,
       title: 'Katy Student Creates Gaming Platform for Blind Players',
       publication: 'Fox News',
       date: 'June 2025',
@@ -22,16 +23,6 @@ const Press = () => {
       excerpt: 'Crystal Yang, a Katy ISD student, has developed an innovative gaming platform designed to make video games accessible to blind players through audio-based gameplay.',
       category: 'Feature',
       image: '/images/press/crystal yang fox.png'
-    },
-    {
-      id: 2,
-      title: 'Audemy Aids Accessibility with AI Games',
-      publication: 'Intel',
-      date: 'August 2025',
-      url: 'https://www.intel.com/content/www/us/en/customer-spotlight/stories/audemy-crystal-yang-customer-story.html',
-      excerpt: 'Intel features Crystal Yang\'s Audemy platform, highlighting how AI-powered games enhance learning and privacy for visually impaired students through local speech processing.',
-      category: 'Feature',
-      image: '/images/press/intel and audemy.png'
     },
     {
       id: 3,
@@ -157,7 +148,7 @@ const Press = () => {
           className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12"
         >
           <div className="text-center">
-            <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">38</div>
+            <div className="text-3xl font-gamer font-bold text-gamer-hot-pink">44</div>
             <div className="text-sm text-gray-600">Media Features</div>
           </div>
           <div className="text-center">

@@ -28,7 +28,7 @@ const Projects = () => {
         "Created 100+ toolkits to make mainstream games accessible (Minecraft, Call of Duty, Roblox). Used by blind players in 136 countries.",
       technologies: ["Modding", "Accessibility APIs", "Unity"],
       image: "/images/projects/audemytoolkits.png",
-      live: "#",
+      live: "https://audemy.org/game-toolkit",
       icon: Code,
       color: "from-indigo-500 to-blue-600",
       stats: {
@@ -45,13 +45,13 @@ const Projects = () => {
         "Connects indie studios with 30+ blind testers and assistive tech experts. Helps ensure real-world accessibility before release.",
       technologies: ["Product Ops", "Research", "Outreach"],
       image: "/images/projects/accessstudio.png",
-      live: "#",
+      live: "https://audemy.org/accessibility-studio",
       icon: Users,
       color: "from-green-500 to-emerald-600",
       stats: {
         testers: "30+",
         games: "50+",
-        improvements: "100 logged",
+        developed: "6 games",
       },
     },
     {
@@ -67,7 +67,7 @@ const Projects = () => {
       color: "from-red-400 to-pink-600",
       stats: {
         games: "30 titles",
-        users: "16 blind testers",
+        testers: "16 student",
         launch: "2026",
       },
     },
@@ -135,7 +135,7 @@ const Projects = () => {
       color: "from-gray-600 to-slate-700",
       stats: {
         conferences: "ACM x3",
-        citations: "15+",
+        teachers: "20+",
         downloads: "1,200+",
       },
     },
