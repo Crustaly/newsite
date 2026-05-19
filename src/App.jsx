@@ -2,22 +2,25 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Projects from './pages/Projects'
+import Work from './pages/Projects'
 import Press from './pages/Press'
-import Gallery from './pages/Gallery'
+import About from './pages/Gallery'
+import Speaking from './pages/Speaking'
 
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="app-shell">
       <Navbar />
-      <main className="flex-grow">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Work />} />
           <Route path="/press" element={<Press />} />
-          <Route path="/gallery" element={<Gallery />} />
-
+          <Route path="/speaking" element={<Speaking />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<About />} />
         </Routes>
       </main>
       <Footer />
@@ -25,4 +28,4 @@ function App() {
   )
 }
 
-export default App 
+export default App

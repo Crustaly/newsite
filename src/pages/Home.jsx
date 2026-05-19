@@ -1,125 +1,50 @@
-import { motion } from 'framer-motion'
-import { ArrowRight, Gamepad2, Accessibility, Newspaper } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className="pt-16">
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Topographic Map Background */}
-        <div className="absolute inset-0 page-background opacity-5"></div>
-        
-        {/* Background Image Overlay */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
-          style={{
-            backgroundImage: 'url("/images/background-overlay.jpg")'
-          }}
-        ></div>
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Text Content */}
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="space-y-6"
-            >
-              <motion.h1
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2, duration: 0.8 }}
-                className="text-4xl md:text-6xl font-gamer font-bold text-gamer-navy leading-tight"
-              >
-                I'm Crystal Yang, a{' '}
-                <span className="text-gamer-hot-pink">gaming + accessibility</span> enthusiast.
-                <Gamepad2 className="inline-block ml-4 text-gamer-hot-pink" size={48} />
-              </motion.h1>
-              
-              <motion.p
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4, duration: 0.8 }}
-                className="text-lg md:text-xl text-gray-700 leading-relaxed"
-              >
-                I'm a freshman at UPenn M&T (Wharton + CS). Currently, I'm building{' '}
-                <span className="font-semibold text-gamer-navy">Audemy</span>, a gaming platform for blind gamers, 
-                and <span className="font-semibold text-gamer-navy">Buzzle</span>, the world's first audio-only gaming console for blind users. 
-                I'm on a mission to make gaming more accessible for everyone.
-              </motion.p>
-
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6, duration: 0.8 }}
-                className="flex flex-col sm:flex-row gap-4"
-              >
-                <a href="/projects" className="gamer-button flex items-center justify-center space-x-2">
-                  <span>View My Projects</span>
-                  <ArrowRight size={20} />
-                </a>
-                <a href="/press" className="bg-transparent border-2 border-gamer-navy text-gamer-navy px-6 py-3 rounded-lg font-gamer font-semibold hover:bg-gamer-navy hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
-                  <span>Press & Media</span>
-                  <Newspaper size={20} />
-                </a>
-              </motion.div>
-
-              
-            </motion.div>
-
-            {/* Headshot */}
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-              className="flex justify-center lg:justify-end"
-            >
-              <div className="relative">
-                <div className="w-80 h-80 lg:w-[500px] lg:h-[500px] rounded-3xl bg-gradient-to-br from-gamer-pink to-gamer-hot-pink p-3 animate-glow">
-                  <div className="w-full h-full rounded-2xl bg-white p-3">
-                    <div className="w-full h-full rounded-xl overflow-hidden">
-                      <img
-                        src="/images/crystal yang.jpeg"
-                        alt="Crystal Yang - Gaming and Accessibility Enthusiast"
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          // Fallback to placeholder if image fails to load
-                          e.target.style.display = 'none';
-                          e.target.nextSibling.style.display = 'flex';
-                        }}
-                      />
-                      <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center" style={{display: 'none'}}>
-                        <div className="text-center p-8">
-                          <Accessibility size={80} className="text-gamer-navy mx-auto mb-4" />
-                          <p className="text-gamer-navy font-gamer font-semibold">Crystal Yang</p>
-                          <p className="text-sm text-gray-600 mt-2">Headshot</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Floating elements */}
-                <motion.div
-                  animate={{ y: [-10, 10, -10] }}
-                  transition={{ duration: 3, repeat: Infinity }}
-                  className="absolute -top-4 -right-4 w-8 h-8 bg-gamer-hot-pink rounded-full opacity-80"
-                />
-                <motion.div
-                  animate={{ y: [10, -10, 10] }}
-                  transition={{ duration: 4, repeat: Infinity }}
-                  className="absolute -bottom-4 -left-4 w-6 h-6 bg-gamer-navy rounded-full opacity-80"
-                />
-              </div>
-            </motion.div>
-          </div>
+    <div className="page home-page">
+      <section className="home-intro">
+        <div className="home-headshot">
+          <img src="/images/crystal yang.jpeg" alt="Crystal Yang" />
         </div>
 
-       
+        <div className="home-copy">
+          <p className="home-audemy-line">
+            I&apos;m Crystal, founder of{' '}
+            <a className="audemy-word" href="https://audemy.org/" target="_blank" rel="noreferrer">
+              <img src="/images/audemylogo.png" alt="" aria-hidden="true" />
+              <strong>Audemy</strong>
+            </a>.
+          </p>
+          <p>
+            I&apos;ve always loved building weird little things and studying how great companies take off.
+          </p>
+          <p>
+            I&apos;m a{' '}
+            <a href="https://www.forbes.com/profile/crystal-yang/" target="_blank" rel="noreferrer">
+              Forbes 30 Under 30
+            </a>{' '}
+            honoree, a Penn M&amp;T student (Wharton &amp; AI), and a speaker on accessible gaming
+            &amp; inclusive AI. My work sits somewhere between accessible gaming, human-centered AI{' '}
+            <a href="https://scholar.google.com/citations?user=xaeJeRYAAAAJ&hl=en" target="_blank" rel="noreferrer">
+              research
+            </a>
+            , education, and social impact.
+          </p>
+          <p>
+            My favorite drink is iced water, I love improvising jazz pieces on the piano, and I look
+            forward to seeing Bing&apos;s daily wallpaper every morning. Enjoy my corner of the internet!
+          </p>
+
+          <div className="home-actions" aria-label="Homepage links">
+            <Link className="button home-button" to="/press">Featured in</Link>
+            <Link className="button home-button" to="/work">My Work</Link>
+            <Link className="button home-button" to="/about">About me!</Link>
+          </div>
+        </div>
       </section>
     </div>
   )
 }
 
-export default Home 
+export default Home

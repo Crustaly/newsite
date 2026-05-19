@@ -7,14 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'gamer-pink': '#FF69B4',
-        'gamer-navy': '#1E3A8A',
-        'gamer-hot-pink': '#FF1493',
-        'gamer-light-pink': '#FFF0F5',
+        garden: '#F4FFE9',
+        strawberry: '#D13C3C',
+        ink: '#32030F',
+        blush: '#FFD6DE',
+        leaf: '#E8F8D8',
+        muted: '#6B4A52',
       },
       fontFamily: {
-        'gamer': ['Orbitron', 'monospace'],
-        'sans': ['Inter', 'sans-serif'],
+        heading: ['Fraunces', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+        accent: ['Caveat', 'cursive'],
       },
       animation: {
         'glow': 'glow 2s ease-in-out infinite alternate',
@@ -34,4 +37,4 @@ export default {
     },
   },
   plugins: [],
-} 
+}
