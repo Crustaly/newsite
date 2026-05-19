@@ -51,7 +51,13 @@ const Work = () => {
   return (
     <div className="page">
       <section className="work-intro">
-        <img src="/images/projects/crystal_yang_speaking.png" alt="Crystal Yang speaking" />
+        <img
+          src="/images/projects/crystal_yang_speaking.png"
+          alt="Crystal Yang speaking"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
+        />
         <div>
           <h1>Building accessible games, AI tools, and social impact ventures.</h1>
           <p>
@@ -106,7 +112,7 @@ const Work = () => {
         <div className="award-list">
           {awards.map((award) => (
             <article className="award-item" key={award.name}>
-              <img className="award-logo" src={award.logo} alt="" aria-hidden="true" />
+              <img className="award-logo" src={award.logo} alt="" aria-hidden="true" loading="lazy" decoding="async" />
               <div>
                 <h3>{award.name}</h3>
                 <p>{award.description}</p>

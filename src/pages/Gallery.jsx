@@ -16,7 +16,13 @@ const About = () => {
             A tiny scrapbook of life and things I love!
           </p>
         </div>
-        <img src="/images/gallerynew/IMG_2645.JPG" alt="Crystal Yang" />
+        <img
+          src="/images/gallerynew/IMG_2645.JPG"
+          alt="Crystal Yang"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
+        />
       </section>
 
       <section className="content-section about-favorites-section">
@@ -36,7 +42,7 @@ const About = () => {
         <div className="album-grid polaroid-album-grid">
           {uniquePhotoAlbum.map((item) => (
             <figure className="album-polaroid" key={item.image}>
-              <img src={item.image} alt="" loading="lazy" />
+              <img src={item.image} alt="" loading="lazy" decoding="async" />
               <figcaption>
                 <MapPin size={15} aria-hidden="true" />
                 <span>{item.location}</span>

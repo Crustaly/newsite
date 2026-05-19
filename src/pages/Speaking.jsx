@@ -21,8 +21,15 @@ const Speaking = () => {
         </div>
 
         <div className="speaking-photo-strip">
-          {speakingHeroImages.map((image) => (
-            <img key={image} src={image} alt="" loading="lazy" />
+          {speakingHeroImages.map((image, index) => (
+            <img
+              key={image}
+              src={image}
+              alt=""
+              loading={index === 0 ? 'eager' : 'lazy'}
+              decoding="async"
+              fetchPriority={index === 0 ? 'high' : undefined}
+            />
           ))}
         </div>
       </section>
@@ -39,7 +46,7 @@ const Speaking = () => {
         <div className="speaking-card-grid">
           {featuredSpeakingAppearances.map((appearance) => (
             <a className="speaking-appearance-card" href={appearance.link} target="_blank" rel="noreferrer" key={appearance.title}>
-              <img src={appearance.image} alt="" loading="lazy" />
+              <img src={appearance.image} alt="" loading="lazy" decoding="async" />
               <div>
                 <span>{appearance.year}</span>
                 <h3>{appearance.title}</h3>

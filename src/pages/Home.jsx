@@ -5,14 +5,20 @@ const Home = () => {
     <div className="page home-page">
       <section className="home-intro">
         <div className="home-headshot">
-          <img src="/images/crystal yang.jpeg" alt="Crystal Yang" />
+          <img
+            src="/images/crystal yang.jpeg"
+            alt="Crystal Yang"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
 
         <div className="home-copy">
           <p className="home-audemy-line">
             I&apos;m Crystal, founder of{' '}
             <a className="audemy-word" href="https://audemy.org/" target="_blank" rel="noreferrer">
-              <img src="/images/audemylogo.png" alt="" aria-hidden="true" />
+              <img src="/images/audemylogo.png" alt="" aria-hidden="true" decoding="async" />
               <strong>Audemy</strong>
             </a>.
           </p>

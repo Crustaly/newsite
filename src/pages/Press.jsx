@@ -30,7 +30,7 @@ const LinkList = ({ items }) => (
 
 const AwardLogo = ({ award }) => {
   if (award.logo) {
-    return <img src={award.logo} alt={award.organization} />
+    return <img src={award.logo} alt={award.organization} loading="lazy" decoding="async" />
   }
 
   return <span>{award.textLogo || award.organization}</span>
@@ -111,9 +111,14 @@ const Press = () => {
     <div className="page">
       <PressSection title="Featured Press">
         <div className="featured-press-grid">
-          {featuredPress.map((item) => (
+          {featuredPress.map((item, index) => (
             <article className="featured-press-card" key={`${item.publisher}-${item.title}`}>
-              <ImageCard src={item.image} alt={`${item.publisher} article image`} />
+              <ImageCard
+                src={item.image}
+                alt={`${item.publisher} article image`}
+                loading={index < 2 ? 'eager' : 'lazy'}
+                fetchPriority={index === 0 ? 'high' : undefined}
+              />
               <div>
                 <span>{item.publisher}</span>
                 <h3>{item.title}</h3>
@@ -130,7 +135,7 @@ const Press = () => {
         <h1>Featured in</h1>
         <div className="press-logo-cloud">
           {pressLogos.map((logo) => (
-            <img key={logo.name} src={logo.image} alt={logo.name} />
+            <img key={logo.name} src={logo.image} alt={logo.name} loading="lazy" decoding="async" />
           ))}
         </div>
       </section>
